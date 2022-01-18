@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>METEO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.10/css/weather-icons.min.css">
+    
+   
+    
+
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-6 my-3">
+                <form>
+                    <h1>ENTREZ LE NOM DE VOTRE VILLE</h1>
+                    <div class="form-groupe">
+                        <input type="text" class="form-control" id="inputcity"/>
+                    </div> 
+                    <br>
+                    <button type="submit"class="btn btn-info btn-block">Recherche
+                    </button>
+                </form>
+            </div>
+            <div class="col-sm-4">
+                <div class="box-container">
+                    <div id="city" class="box"></div>
+                    <div id="temp" class="box"></div>
+                    <div id="humidity" class="box"></div>
+                    <div id="wind" class="box"></div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
